@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <radialGradient id="spaceBg" cx="50%" cy="46%" r="65%">
+      <stop offset="0%" stop-color="#111f3a" />
+      <stop offset="100%" stop-color="#070d18" />
+    </radialGradient>
+    <linearGradient id="planetGrad" x1="25%" y1="20%" x2="80%" y2="85%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="48%" stop-color="#1d6fd8" />
+      <stop offset="100%" stop-color="#0f3c6e" />
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#fde68a" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#spaceBg)" />
+  <circle cx="96" cy="112" r="4" fill="#cbd5e1" opacity="0.8" />
+  <circle cx="412" cy="128" r="5" fill="#38bdf8" opacity="0.85" />
+  <circle cx="118" cy="398" r="3.5" fill="#fde68a" opacity="0.75" />
+  <circle cx="394" cy="390" r="4" fill="#cbd5e1" opacity="0.7" />
+  <ellipse cx="256" cy="256" rx="194" ry="62" transform="rotate(-18 256 256)" stroke="url(#ringGrad)" stroke-width="18" opacity="0.35" />
+  <circle cx="256" cy="256" r="134" fill="url(#planetGrad)" />
+  <rect x="176" y="182" width="44" height="44" rx="6" fill="#2e9468" />
+  <rect x="224" y="166" width="52" height="36" rx="6" fill="#3bb57e" />
+  <rect x="268" y="218" width="58" height="46" rx="6" fill="#258059" />
+  <rect x="190" y="276" width="48" height="38" rx="6" fill="#2e9468" />
+  <rect x="218" y="236" width="76" height="22" rx="5" fill="#7dd3fc" opacity="0.85" />
+  <path d="M 69 316 A 194 62 -18 0 0 443 196" stroke="url(#ringGrad)" stroke-width="20" stroke-linecap="round" />
+  <rect x="356" y="128" width="32" height="32" rx="6" fill="#38bdf8" />
+</svg>
